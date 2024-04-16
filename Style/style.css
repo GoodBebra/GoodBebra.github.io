@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    background-color: #333;
+    flex: 1;
+    padding: 1em;
+    color: white;
+}
+aside{
+    background-color: fuchsia;
+    flex: 2;
+}
+main{
+    background-color: chartreuse;
+    flex: 5;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+footer{
+    background-color: #333;
+    flex: 1;
+}
+.conteainer{
+    display: flex;
+    flex: 3;
+}
+.main-menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.main-menu a{
+    text-decoration: none;
+    color: white;
+    padding-left: 1em;
+}
+.card{
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgb(0,0,0);
+}
+.card img{
+    width: 150px;
+}
+main a, main a:visited {
+    text-decoration: none;
+    color: #333;
+}

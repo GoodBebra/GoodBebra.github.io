@@ -1,0 +1,53 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    width: 250px;
+    margin: 50px auto;
+}
+
+#display {
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.btn {
+    font-size: 18px;
+    cursor: pointer;
+    flex: 1 0 20%;
+}
+
+#equals {
+    flex: 22;
+    background-color: rgb(211, 42, 42);
+}
+.dizan{
+    border-radius: 20px;
+    background-color: #333;
+    padding: 5px;
+    width: 275px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.operator{
+    background-color: orange;
+}
+#sqrt{
+    background-color: orange;
+    font-size: 18px;
+    cursor: pointer;
+    flex: 1 0 20%;
+}
